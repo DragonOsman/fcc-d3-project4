@@ -1,0 +1,28 @@
+{
+  "name": "fcc-d3-project4",
+  "version": "1.0.0",
+  "description": "My solution to the \\\"Data Visualization Projects - Visualize Data with a Choropleth Map\\\" project challenge on FreeCodeCamp",
+  "main": "scripts/script.js",
+  "scripts": {
+    "sass": "sass --watch scss/style.scss styles/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DragonOsman/fcc-d3-project4.git"
+  },
+  "keywords": [
+    "d3js",
+    "choropleth-map",
+    "javascript",
+    "typescript",
+    "scss",
+    "html5",
+    "freecodecamp"
+  ],
+  "author": "Osman Zakir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DragonOsman/fcc-d3-project4/issues"
+  },
+  "homepage": "https://github.com/DragonOsman/fcc-d3-project4#readme"
+}
