@@ -192,7 +192,7 @@
         "affectsGlobalScope": true
       },
       "./scripts/script.ts": {
-        "version": "411670ad91d3efd72c5ad046df20bce28e2611e59f16289a82f0721bd392adce",
+        "version": "82a771b74e58ef00d393687740ed96826677f9e33e2d33cbe8385265293c0ed2",
         "signature": "9377eca08a2c82440515f8ea75052965126017f2c7019165ba2ea006ef25d29b",
         "affectsGlobalScope": true
       },
@@ -488,7 +488,7 @@
         [
           {
             "file": "./scripts/script.ts",
-            "start": 2171,
+            "start": 2172,
             "length": 18,
             "messageText": "Cannot find name 'GeometryCollection'.",
             "category": 1,
