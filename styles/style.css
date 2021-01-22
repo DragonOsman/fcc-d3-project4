@@ -5,6 +5,7 @@ html, body, div, legend, header {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  text-align: center;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -19,8 +20,22 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
 }
-body h1, body h3, body .container {
-  text-align: center;
+body main {
+  position: relative;
+}
+body main .states {
+  stroke: #fff;
+  fill: none;
+  stroke-linejoin: round;
+}
+body main .counties {
+  fill: none;
+}
+body main div.tooltip {
+  position: absolute;
+  padding: 4px;
+  background-color: #464646;
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

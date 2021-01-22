@@ -192,8 +192,8 @@
         "affectsGlobalScope": true
       },
       "./scripts/script.ts": {
-        "version": "1a108850d43c359838d997e8ce6526f051443d42491d29797b23b72c7e08ffd3",
-        "signature": "98d40824018e6282445d68d5311c86b7ca4fe74fa5531dd3e8f9a63cbc7217d1",
+        "version": "411670ad91d3efd72c5ad046df20bce28e2611e59f16289a82f0721bd392adce",
+        "signature": "9377eca08a2c82440515f8ea75052965126017f2c7019165ba2ea006ef25d29b",
         "affectsGlobalScope": true
       },
       "./node_modules/@types/d3-array/index.d.ts": {
@@ -365,6 +365,31 @@
         "version": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538",
         "signature": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538",
         "affectsGlobalScope": false
+      },
+      "./node_modules/@types/topojson-specification/index.d.ts": {
+        "version": "b1f300930b444f0667cbd89fbb56c8f3f5660dcf9a3fe47de950c289342b66d8",
+        "signature": "b1f300930b444f0667cbd89fbb56c8f3f5660dcf9a3fe47de950c289342b66d8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/topojson-server/index.d.ts": {
+        "version": "db4a8e3dfe98c1ad227ac00541216bc6f6a9802e839fd75ed0ce53be93f55c37",
+        "signature": "db4a8e3dfe98c1ad227ac00541216bc6f6a9802e839fd75ed0ce53be93f55c37",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/topojson-simplify/index.d.ts": {
+        "version": "544c65959e70e0527b02b44d9fd079114f967c3e3c67e3311c6ee4f06437fa90",
+        "signature": "544c65959e70e0527b02b44d9fd079114f967c3e3c67e3311c6ee4f06437fa90",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/topojson-client/index.d.ts": {
+        "version": "374eddd67b4671061e0117247335c5bca27f03415f87ce8b68e45bacd76836c1",
+        "signature": "374eddd67b4671061e0117247335c5bca27f03415f87ce8b68e45bacd76836c1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/topojson/index.d.ts": {
+        "version": "4ac9551ca95a4e4a77b61b47acef5a780c0dd01da44393e09f8581505050da33",
+        "signature": "4ac9551ca95a4e4a77b61b47acef5a780c0dd01da44393e09f8581505050da33",
+        "affectsGlobalScope": false
       }
     },
     "options": {
@@ -377,6 +402,7 @@
       ],
       "module": 0,
       "downlevelIteration": true,
+      "allowJs": true,
       "configFilePath": "./tsconfig.json"
     },
     "semanticDiagnosticsPerFile": [
@@ -414,6 +440,11 @@
       "./node_modules/@types/geojson/index.d.ts",
       "./node_modules/@types/json-schema/index.d.ts",
       "./node_modules/@types/json5/index.d.ts",
+      "./node_modules/@types/topojson-client/index.d.ts",
+      "./node_modules/@types/topojson-server/index.d.ts",
+      "./node_modules/@types/topojson-simplify/index.d.ts",
+      "./node_modules/@types/topojson-specification/index.d.ts",
+      "./node_modules/@types/topojson/index.d.ts",
       "./node_modules/typescript/lib/lib.dom.d.ts",
       "./node_modules/typescript/lib/lib.es2015.collection.d.ts",
       "./node_modules/typescript/lib/lib.es2015.core.d.ts",
@@ -457,50 +488,11 @@
         [
           {
             "file": "./scripts/script.ts",
-            "start": 404,
+            "start": 2171,
             "length": 18,
-            "code": 2345,
+            "messageText": "Cannot find name 'GeometryCollection'.",
             "category": 1,
-            "messageText": {
-              "messageText": "Argument of type 'readonly string[]' is not assignable to parameter of type 'Iterable<number>'.",
-              "category": 1,
-              "code": 2345,
-              "next": [
-                {
-                  "messageText": "The types returned by '[Symbol.iterator]().next(...)' are incompatible between these types.",
-                  "category": 1,
-                  "code": 2201,
-                  "next": [
-                    {
-                      "messageText": "Type 'IteratorResult<string, any>' is not assignable to type 'IteratorResult<number, any>'.",
-                      "category": 1,
-                      "code": 2322,
-                      "next": [
-                        {
-                          "messageText": "Type 'IteratorYieldResult<string>' is not assignable to type 'IteratorResult<number, any>'.",
-                          "category": 1,
-                          "code": 2322,
-                          "next": [
-                            {
-                              "messageText": "Type 'IteratorYieldResult<string>' is not assignable to type 'IteratorYieldResult<number>'.",
-                              "category": 1,
-                              "code": 2322,
-                              "next": [
-                                {
-                                  "messageText": "Type 'string' is not assignable to type 'number'.",
-                                  "category": 1,
-                                  "code": 2322
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
+            "code": 2304
           }
         ]
       ]
